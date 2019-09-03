@@ -65,8 +65,8 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
-
+    'timezone' => 'UTC+7',
+    'timezone' => 'Asia/bangkok',
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration
@@ -79,7 +79,7 @@ return [
     */
 
     'locale' => 'en',
-
+    'locale' => ' th',  
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
