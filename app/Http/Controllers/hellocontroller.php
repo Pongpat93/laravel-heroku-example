@@ -1,7 +1,8 @@
 <?php
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-class HomeController extends Controller
+class HelloController extends Controller
 {
-   
+   function shoehello(){
+      return '<h1>hello controller</h1>'
 }
