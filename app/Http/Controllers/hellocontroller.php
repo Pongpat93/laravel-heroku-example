@@ -4,5 +4,5 @@ use Illuminate\Http\Request;
 class HelloController extends Controller
 {
    function shoehello(){
-      return '<h1>hello controller</h1>'
+      return '<h1>hello controller : xnxx pongpat</h1>'
 }
