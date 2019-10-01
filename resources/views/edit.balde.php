@@ -1,5 +1,5 @@
 @extends('master')
-@section('title','Welcome Edit')
+@section('title','Welcome edit')
 @section('content')
     <h1>Edit</h1>
 @stop
