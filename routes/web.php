@@ -14,13 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/', function () {
-    return '<h1>User! 555</h1>';
-});
-Route::get('/', function () {
-    return '<h1>hello Laravel</h1>';
-});
-
-Auth::routes();
-
-Route::get('welcome/name','Hellocontroller@showhello');
+Route::get('showname/{name}','Hellocontroller@showhello');
+Route::get('showproduct/{product}','Hellocontroller@resultproduct');
